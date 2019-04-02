@@ -6,7 +6,6 @@
         <groupId>com.f</groupId>
         <artifactId>cloud-parent</artifactId>
         <version>1.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.f</groupId>
