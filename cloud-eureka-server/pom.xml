@@ -10,7 +10,7 @@
 
     <groupId>com.f</groupId>
     <artifactId>cloud-eureka-server</artifactId>
-    <version>${project.version}</version>
+    <version>1.0</version>
     <name>cloud-eureka-server</name>
     <description>eureka server</description>
 
@@ -33,9 +33,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <executable>true</executable>
-                </configuration>
             </plugin>
         </plugins>
     </build>
