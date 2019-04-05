@@ -10,3 +10,4 @@ spring:
             server:
                 git:
                     uri: https://github.com/duzie/2os
+                    search-paths: /**/resource
