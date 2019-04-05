@@ -17,7 +17,7 @@ public class CloudToolboxApplication {
 
     @GetMapping
     public String index(){
-        return "嗨";
+        return "嗨。";
     }
 
 }
