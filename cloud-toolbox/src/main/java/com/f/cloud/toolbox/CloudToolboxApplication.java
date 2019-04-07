@@ -16,12 +16,12 @@ public class CloudToolboxApplication {
         SpringApplication.run(CloudToolboxApplication.class, args);
     }
 
-    @Value("${a}")
-    private String a;
+    @Value("${toolbox.version}")
+    private String version;
 
     @GetMapping
     public String index() {
-        return "嗨" + a;
+        return "嗨" + version;
     }
 
 }
