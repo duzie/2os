@@ -7,6 +7,10 @@ spring:
         enabled: true
         service-id: cloud-config-server
       profile: dev
+  boot:
+    admin:
+      client:
+        url: http://2os.win:8005
 
 eureka:
   client:
@@ -15,3 +19,5 @@ eureka:
 
 server:
   port: 8010
+
+management.endpoints.web.exposure.include: "*"
