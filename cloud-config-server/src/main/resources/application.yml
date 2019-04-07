@@ -10,7 +10,7 @@ spring:
             server:
                 git:
                     uri:  https://github.com/duzie/2os
-                    search-paths: cloud-config-server
+                    search-paths: cloud-config-server/config
 eureka:
     client:
         service-url:
