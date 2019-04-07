@@ -9,14 +9,19 @@
 	</parent>
 
 	<groupId>com.f</groupId>
-	<artifactId>cloud-config</artifactId>
+	<artifactId>cloud-config-server</artifactId>
 	<version>1.0</version>
-	<name>cloud-config</name>
+	<name>cloud-config-server</name>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>

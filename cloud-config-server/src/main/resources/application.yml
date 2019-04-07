@@ -10,4 +10,8 @@ spring:
             server:
                 git:
                     uri:  https://github.com/duzie/2os
-                    search-paths: cloud-config
+                    search-paths: cloud-config-server
+eureka:
+    client:
+        service-url:
+            defaultZone: http://2os.win:8000/eureka

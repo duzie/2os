@@ -1,5 +1,6 @@
 package com.f.cloud.toolbox;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -15,9 +16,12 @@ public class CloudToolboxApplication {
         SpringApplication.run(CloudToolboxApplication.class, args);
     }
 
+    @Value("${a}")
+    private String a;
+
     @GetMapping
-    public String index(){
-        return "嗨。";
+    public String index() {
+        return "嗨" + a;
     }
 
 }
